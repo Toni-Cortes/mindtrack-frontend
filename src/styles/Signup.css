@@ -1,0 +1,101 @@
+.login-container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo-img{
+    margin: 60px 5px 30px 5px;
+}
+
+.login-wrapper{
+    border: 1px rgb(88, 143, 214);
+    border-style:  dashed;
+    border-radius: 6px;
+
+    background-color: rgb(15, 26, 43);
+    padding: 2%;
+    min-width: 500px;
+    max-width: 600px;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0px 30px 10px;
+    align-items: start;
+    
+}
+.login-form button{
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5px;
+    background-color: rgb(88, 143, 214);
+    color: white;
+    font-weight: 600;
+    padding: 15px;
+    margin-left: 0px;
+    font-size: 18px;
+
+    margin-top: 20px;
+}
+
+.login-form label{
+    margin-bottom: 5px;
+}
+.login-form input{
+    
+    background-color: rgb(33, 55, 75);
+    border-style: none;
+    border-radius: 5px;
+    height: 29px;
+    color: white;
+    padding-left: 5px;
+}
+
+.login-form input::placeholder{
+    color: rgb(50, 81, 102);
+    padding-left: 4px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    min-width: 150px;
+    margin-right: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+   
+}
+
+
+.reminder{
+font-family: 'Quicksand', sans-serif;
+font-weight: 400; /* Use light weight */
+color: rgb(88, 143, 214);
+
+
+}
+
+.reminder a{
+    color: rgb(106, 174, 214);
+}
+
+h1{
+    color: rgb(106, 174, 214);
+}
+
+.signupError{
+    color: red;
+    background-color: rgb(83, 30, 30);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid red
+}

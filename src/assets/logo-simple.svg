@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 133.84 141.77">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #4e81cc;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 26.45px;
+      }
+
+      .cls-4 {
+        fill: url(#Degradado_sin_nombre);
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        stroke: #9acaef;
+      }
+
+      .cls-3 {
+        stroke: #6aa3d8;
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre" data-name="Degradado sin nombre" x1="0" y1="61.91" x2="132.67" y2="61.91" gradientTransform="translate(0 134.17) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3757a6"/>
+      <stop offset="1" stop-color="#56b0e2"/>
+    </linearGradient>
+  </defs>
+  <path class="cls-4" d="m132.64,14.84v114.82c0,3.44-1.12,6.31-3.37,8.63-2.25,2.31-5.22,3.47-8.92,3.47s-6.71-1.16-9.02-3.47-3.47-5.19-3.47-8.63V49.84l-32.72,49.88c-1.19,1.46-2.68,2.71-4.46,3.77s-3.6,1.52-5.45,1.39c-1.72.13-3.47-.33-5.25-1.39s-3.27-2.31-4.46-3.77L22.8,47.99v81.68c0,3.44-1.06,6.31-3.17,8.63-2.12,2.31-4.89,3.47-8.33,3.47s-6.02-1.16-8.13-3.47c-2.12-2.31-3.17-5.19-3.17-8.63V14.85c0-3.3,1.22-6.15,3.67-8.53,2.44-2.38,5.39-3.57,8.82-3.57,1.85,0,3.8.5,5.85,1.49s3.6,2.28,4.66,3.87l43.17,66.45L110.65,8.11c2.51-3.57,5.75-5.35,9.72-5.35,3.17,0,6.01,1.12,8.53,3.37,2.51,2.25,3.77,5.16,3.77,8.72h-.03Z"/>
+  <g>
+    <polyline class="cls-1" points="33.62 46.2 64.79 94.73 118.54 16.25"/>
+    <polyline class="cls-3" points="40.28 56.57 64.79 94.73 118.54 16.25"/>
+    <polyline class="cls-2" points="51.12 73.46 64.79 94.73 120.61 13.23"/>
+  </g>
+</svg>

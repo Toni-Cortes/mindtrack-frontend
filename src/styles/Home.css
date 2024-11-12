@@ -1,0 +1,418 @@
+.home-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    justify-content: center;
+    margin: auto;
+
+    width: 80%;
+}
+
+.home-screen {
+    padding: 20px;
+    margin: 15px;
+    border: 1px rgb(88, 143, 214);
+    border-style:  dashed;
+    border-radius: 6px;
+
+    background-color: rgb(15, 26, 43);
+
+    display: flex;
+    flex-grow: 1;
+}
+
+.home-title {
+    margin: auto none;
+    margin-top: 40px;
+    text-align: center;
+    color: rgb(110, 172, 230);
+}
+
+.entry-form {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    margin: auto;
+    width: 99%;
+}
+
+.entry-form div {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+
+    width: 99%;
+}
+
+.entry-form input,
+textarea{
+    width: 90%;
+    background-color: rgb(33, 55, 75);
+    border-style: none;
+    border-radius: 5px;
+    height: 29px;
+    color: white;
+    padding-left: 5px;
+}
+
+.entry-form label{
+    text-align: left;
+    width: 92%;
+    margin-bottom: 5px;
+
+    font-weight: 700;
+    color: rgb(103, 184, 231);;
+}
+
+.entry-form textarea{
+    min-height: 100px;
+}
+
+.likes{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row !important;
+    width: 97% !important;
+
+}
+
+.likes div{
+    
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.submit-button {
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5px;
+    background-color: rgb(88, 143, 214);
+    color: white;
+    font-weight: 600;
+    padding: 15px;
+    margin-left: 0px;
+    font-size: 18px;
+
+    margin-top: 20px;
+}
+
+.mood-selection {
+    width: 100%;
+    text-align: left;
+}
+
+.mood-buttons {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.mood-button {
+    padding: 8px 12px;
+    border: 1px solid rgb(103, 184, 231);
+    border-radius: 5px;
+    background-color: rgb(33, 55, 75);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.mood-button:hover {
+    background-color: rgb(45, 67, 85);
+}
+
+.mood-button.selected {
+    background-color: rgb(103, 184, 231); /* Highlight color */
+    color: white;
+}
+
+.description{
+    font-size: 0.9rem;
+    margin-top: -10px !important;
+    margin-bottom: 30px !important; 
+}
+
+.task{
+    display: flex;
+}
+
+.task div{
+    flex-grow: 1;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 6px;
+    margin: 10px 10px;
+    background-color: rgb(46, 74, 110);
+    
+}
+
+.task h3, p{
+    margin: 5px;
+}
+
+.entry-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+    width: 100%;
+}
+
+
+.entry-list div{
+
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    
+    padding: 5px 10px;
+    margin: 5px;
+
+    border: 1px solid white;
+    border-radius: 6px;
+
+    background-color: rgb(46, 74, 110);
+
+    
+    list-style-type: none;
+}
+
+
+.entry-list div:hover{
+    background-color: rgb(56, 84, 121);
+    cursor: pointer;
+}
+
+.add-entry-button{
+    display: flex;
+    margin: 30px auto 10px auto;
+    
+    
+}
+
+.Journal{
+    width: 100% ;
+}
+
+
+.entry-buttons{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+
+   
+}
+
+.entry-buttons div{
+margin: auto;
+}
+
+.entry-buttons button{
+    flex-grow: 1;
+    
+    background-color: rgb(46, 74, 110);
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    margin: 10px;
+    
+    border: 1px solid white;
+    border-radius: 6px;
+}
+
+.entry-buttons button:hover{
+    cursor: pointer;
+    background-color: rgb(63, 95, 136);
+}
+
+.Journal p{
+    min-height: 50px;
+    background-color: rgb(27, 45, 68);
+    font-size: 0.9rem;
+
+    padding: 5px;
+    border-radius: 4px;
+    margin: auto 0 20px 0;
+}
+
+
+
+input[type="checkbox"] {
+    cursor: pointer;
+  }
+
+.patient-panels{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.patient-panels > div{
+    width: 30%;
+
+}
+
+.patient-panels{
+    background-color: rgb(18, 32, 49);;
+    border: 1px dashed white;
+    border-radius: 10px;
+    margin: 30px 30px;
+    padding: 10px;
+}
+.patient-panel h1{
+    text-align: center;
+
+}
+
+
+
+/* PATIENTS.JSX CSS*/
+
+.patients-title, .patient-panel h1{
+    text-align: center;
+    margin: 40px ;
+
+}
+
+.patients-list{
+    margin: auto !important;
+    max-width: 900px;
+
+    display: flex;
+    justify-content: space-between;
+
+    background-color: rgb(18, 32, 49);
+    border: 1px dashed white;
+    border-radius: 10px;
+    margin: 30px 30px;
+    padding: 10px;
+}
+
+.patients-list div{
+    flex-grow: 1;
+    padding: 10px 15px;
+    border: 1px solid white;
+    border-radius: 6px;
+    margin: 10px 10px;
+    background-color: rgb(46, 74, 110);
+}
+.patients-list div:hover{
+    cursor: pointer;
+    background-color: rgb(63, 95, 136);
+}
+
+.go-back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+
+    font-size: 2rem;
+    font-weight: 700;
+    border-radius: 10%;
+
+    position: absolute;
+    margin: 5px 30px;
+
+    border: 1px dashed white;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    background-color: rgb(18, 32, 49);
+    color: rgb(106, 174, 214);
+}
+
+.entry-title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+
+
+.entry-title span{
+    font-size: 0.8rem;
+}
+
+.entry{
+    flex-grow: 1;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 6px;
+    margin: 4px 5px;
+    background-color: rgb(46, 74, 110);
+   
+}
+
+.entry h3{
+    margin-top: 0;
+    margin: 5px 1px;
+    
+}
+
+.entries {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#home-intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-top: 30px;
+  }
+
+  #home-intro img{
+    margin: 40px;
+  }
+
+  #home-intro p{
+    max-width: 800px;
+    text-align: center;
+  }
+
+  #home-intro h2{
+    color: rgb(100, 173, 233);
+  }
+.intro-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 20px;
+    margin: 15px;
+    border: 1px rgb(88, 143, 214);
+    border-style:  dashed;
+    border-radius: 6px;
+
+    background-color: rgb(15, 26, 43);
+
+}
+
+#intro-p{
+
+    margin-bottom: 50px;
+    width: 28%;
+
+}
