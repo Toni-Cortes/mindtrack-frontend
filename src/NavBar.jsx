@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { useContext } from "react";
 import { AuthContext } from "./AuthContext";
 import './styles/Navigation.css';
+import logo from '../src/assets/logo.svg';
 
 function NavBar() {
     const { logout } = useContext(AuthContext);
@@ -14,7 +15,7 @@ function NavBar() {
     return (
         <div className="Navbar">
             <div className="navbar-img">
-                <img src="../src/assets/logo.svg" alt="Logo" />
+                <img src={logo} alt="Logo" />
             </div>
             <div className="navbar-buttons">
                 <Link to="/" onClick={handleLogout}>Log out</Link>

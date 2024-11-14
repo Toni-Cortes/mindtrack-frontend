@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import logoSimple from '../src/assets/logo-simple.svg'
 
 
 function Introduction() {
@@ -6,7 +7,7 @@ function Introduction() {
         <div>
             <div className="Navbar">
                 <div className="navbar-img">
-                    <img width='30px' src=".\src\assets\logo-simple.svg" alt="" />
+                    <img width='30px' src={logoSimple} alt="" />
                 </div>
                 <div className="navbar-buttons">
                     <Link to={'/login'}>Login</Link>
