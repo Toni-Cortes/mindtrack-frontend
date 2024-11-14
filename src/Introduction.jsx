@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import logoSimple from '../src/assets/logo-simple.svg'
+import logoWelcome from '../src/assets/logo-welcome.svg'
 
 
 function Introduction() {
@@ -16,7 +17,7 @@ function Introduction() {
 
             </div>
             <section id="home-intro">
-                <img style={{ width: '28%' }} src="./src/assets/logo-welcome.svg" alt="" />
+                <img style={{ width: '28%' }} src={logoWelcome} alt="" />
                 <p id="intro-p">
                     <strong style={{ color: 'rgb(137, 197, 247)' }}>Mindcheck</strong> is a dedicated platform designed to strengthen the connection between therapists and their patients. Here, patients can express themselves through a<strong style={{ color: 'rgb(137, 197, 247)' }}>  daily journal</strong>, reflecting on their thoughts, moods, and progress.
                 </p>
