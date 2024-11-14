@@ -15,7 +15,9 @@ function NavBar() {
     return (
         <div className="Navbar">
             <div className="navbar-img">
-                <img src={logo} alt="Logo" />
+                <Link to="/">
+                    <img src={logo} alt="Logo" />
+                </Link>
             </div>
             <div className="navbar-buttons">
                 <Link to="/" onClick={handleLogout}>Log out</Link>
