@@ -2,6 +2,7 @@
 import { useContext, useState } from 'react';
 import { AuthContext } from './AuthContext'; 
 import { Link, useNavigate } from 'react-router-dom';
+import NavBar from './NavBar';
 
 function TherapistLogin() {
  
@@ -37,6 +38,8 @@ function TherapistLogin() {
  
 
   return (
+    <div>
+      <NavBar/>
     <div className={'login-container'}>
 
     <img className="logo-img" src='../src/assets/logo.svg' alt="Mindcheck Logo" />
@@ -82,6 +85,7 @@ function TherapistLogin() {
 
       </div>
 
+    </div>
     </div>
   );
 }

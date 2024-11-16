@@ -259,6 +259,7 @@ input[type="checkbox"] {
 
 .patient-panels{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 
 
@@ -266,6 +267,7 @@ input[type="checkbox"] {
 
 .patient-panels > div{
     width: 30%;
+    min-width: 300px;
 
 }
 
@@ -416,3 +418,4 @@ input[type="checkbox"] {
     width: 28%;
 
 }
+

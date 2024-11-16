@@ -79,6 +79,10 @@ function Login() {
           <p className="reminder">
             Don&apos;t have an account yet? <Link to={'/signup'}>Sign</Link> up here
           </p>
+          
+          <p className="reminder">
+            Working with us? You might be looking for the <Link to={'/therapist/login'}>Therapist Login</Link> 
+          </p>
         </div>
       </div>
     </div>

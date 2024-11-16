@@ -41,6 +41,7 @@ function TaskEntry(props) {
             <form onSubmit={handleAddTask}>
                 <div>
                     <label htmlFor="title">Task Title:</label>
+                    <br />
                     <input
                         type="text"
                         id="title"

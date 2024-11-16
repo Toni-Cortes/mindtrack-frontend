@@ -36,31 +36,27 @@ function AuthProvider({ children }) {
     
 
  
-    async function therapistLogin(username, password) {
-        try {
-            // Send email and password to the backend to log in
-            const response = await axios.post(`${import.meta.env.VITE_REACT_APP_BACKEND_URL}/auth/therapist/login`, { username, password });
-            const { token } = response.data;
     
-            // Store token in state and local storage
-            setToken(token);
-            localStorage.setItem('token', token);
-    
-            // Verify token and set user data in state
-            const userPayload = await verifyToken(token);
-            setUser(userPayload);
-    
-            console.log('loggin ok');
-    
-            // Return the full response object for further handling
-            return response;
-    
-        } catch (error) {
-            console.log ('loggin not ok');
-            console.error("Login failed:", error.response?.data?.message || error.message);
-            throw error; // Re-throw the error for the calling function to handle
-        }
+async function therapistLogin(username, password) {
+    try {
+        const response = await axios.post(`${import.meta.env.VITE_REACT_APP_BACKEND_URL}/auth/therapist/login`, { username, password });
+        const { token } = response.data;
+
+        setToken(token);
+        localStorage.setItem('token', token);
+
+        const userPayload = await verifyToken(token);
+        setUser(userPayload);
+
+        console.log('Login successful for therapist');
+
+        return response;
+
+    } catch (error) {
+        console.error("Login failed:", error.response?.data?.message || error.message);
+        throw error; // Re-throw the error for the calling function to handle
     }
+}
     
 
     // Function to verify JWT token and get user info
