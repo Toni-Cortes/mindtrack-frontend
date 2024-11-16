@@ -42,6 +42,8 @@ function TherapistLogin() {
     <div>
       <NavBar/>
     <div className={'login-container'}>
+      <br />
+      <br />
 
     {/* <img className="logo-img" src={logo} alt="Mindcheck Logo" /> */}
 
